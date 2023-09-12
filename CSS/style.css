@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 0px;    
+}
+
+header{
+    background-color: #96b7be;
+    display: flex;
+    justify-content: space-between; 
+    padding: 35px 0px 36px 20px;  
+}
+
+.img1{
+    display: flex;
+}
+li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 10px;
+    border-left: 1px solid #f1eeee;
+    margin: 0px;    
+}
+li a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: larger;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.para{
+    width: 145px;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.one{
+    background-color: #cbdde1;
+    display: flex;
+}
+.img2{
+    margin: 20px;
+    padding: 8px;
+    border: 1px solid #26575e;
+    width: 420px;
+    height: 320px;
+}
+.one h3{
+    color: white;
+    justify-content: space-between;   
+    vertical-align: middle; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+h3{
+    display: block;
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para1{
+    margin-top: 5px;
+    line-height: 1.4;
+    width: 400px;
+    font-size: medium;
+    color: #26575e;
+    border-top: 1px solid #26575e;
+    padding: 18px 0px;
+    font-weight: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    padding: 160px 0px 0px 85px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.one a{
+    color: #26575e; 
+    font-size: large; 
+    text-decoration: none;
+    text-transform: capitalize;  
+    border: 1px solid #96b7be;
+    padding: 22px 0px 18px 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-weight: bolder;
+    margin-left: 95px;
+}
+.btnnn img{
+    padding: 0px 14px 0px 60px;
+
+}
+.btnnn{
+   /* padding-left: 70px;*/
+    padding: 0px 0px 0px 85px;
+}
+/* .two{
+    width: 209px;
+    padding-left: 20px;
+    display: flex;
+}
+.img3{
+    margin: 20px 0px;
+    padding: 4px;
+    border: 1px solid #79969b;
+    border-top: 1px solid #79969b;
+}
+.two h4{
+    margin-bottom: 5px;
+}
+.two p{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #79969b;
+}
+*/
+.parent{
+    width: 21%;
+    padding-left: 2%;
+    padding-right: 2%;
+} 
+.content{
+    display: flex;
+    padding-top: 40px;
+    border-bottom: 1px solid #26575e;
+}
+.parent h4{
+    padding-bottom: 14px;
+}
+.parent img{
+    margin: 20px 0px;
+    padding: 4px;
+    border: 1px solid #79969b;
+}
+.cntrd1{
+    position: absolute;
+    top: 122%;
+    left: 18%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.cntrd2{
+    position: absolute;
+    top: 122%;
+    left: 38%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.cntrd3{
+    position: absolute;
+    top: 122%;
+    left: 57%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.cntrd4{
+    position: absolute;
+    top: 122%;
+    left: 76%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.parent p{
+    padding-bottom: 14px;
+}
+.brdr{
+    border-top: 1px solid #79969b;
+    align-items: center;
+}
+.img-with-css{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #79969b;
+}
+.part1{
+    width: 208px;  
+}
+.part1 p{
+    padding: 13px 0px;
+}
+.imgtext{
+    background-image: url("/Assets/square 3.png");
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.top-border{
+    border-top: 1px solid #79969b;
+    padding-top: 15px;
+}
+.for-border{
+    border: 1px solid #79969b;
+}
+.sec3{
+    padding-top: 33px;
+    display: flex;
+}
+.con{
+    width: 630px;
+    padding-left: 20px;
+}
+.hdng{
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #26575e;
+    margin-bottom: 14px;
+    font-size: x-large;
+}
+.con p{
+    margin-bottom: 20px;
+}
+.con2{
+    padding-left: 30px;
+}
+.con2 img{
+    padding: 4px;
+    border: 1px solid #79969b;
+    border-top: 1px solid #79969b;
+}
+.con2{
+    margin-bottom: 1px solid #26575e;
+    width: 300px;
+}
+.con2 h5{
+    margin: 15px;
+    font-size: larger;
+}
+.ah5{
+    border-bottom: 1px solid #26575e;
+    display: flex;
+}
+.img4{
+    background-image: url("/Assets/Path.png");
+    height: 60px;
+    width: 60px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    color: white;
+}
+.border{
+    border: 1px solid #79969b;
+    margin: 5px;
+}
+.para3{
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.para3 a{
+    color: #054451;
+    font-weight: bold;
+    text-decoration: none;
+}
+.continue{
+    text-align: right;
+}
+.footer{
+    background-color: #cfe1e1;
+    display: flex;
+}
+.ftr{
+    color: gray;
+    width: 300px;
+    padding: 15px 0px 8px 20px;
+
+}
+.p1{
+    color: gray;
+    font-size: x-large;
+    text-transform: capitalize;
+    padding-bottom: 15px; 
+    border-bottom: 1px solid gray;
+}
+.p2{
+    padding-top: 28px;
+    padding-bottom: 0px;
+}
+#email{
+    height: 25px;
+    width: 260px;
+}
+button{
+    height: 25px;    
+}
+.p3{
+    padding-top: 15px;
+}
+.input{
+    margin-top: 15px;
+}
+.hr1{
+    padding-top: 25px;
+    
+}
+.hr1 a{
+    text-decoration: none;
+    color: black;
+}
+.hr2{
+    padding-top: 15px;
+    
+}
+.hr2 a{
+    text-decoration: none;
+    color: black;
+}
+.hr3{
+    padding: 15px 0px;
+}
+.hr3 a{
+    text-decoration: none;
+    color: gray;
+}
+.copyri8{
+    background-color: #054451;
+    padding: 15px 15px 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.copyri8 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
